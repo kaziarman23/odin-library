@@ -48,7 +48,14 @@ function render(){
         <div class="card-body">
             <p>pages:${book.pages}</p>
             <p class="read-status">${book.read ? "read" : "Not read Yet"}</p>
+            <button class="remove-btn" onclick ="removeBook(${i})">Remove</button>
         </div>`
         libraryEl.appendChild(bookEl)
     }
+}
+
+
+function removeBook(index){
+    myLibrary.splice(index, 1)
+    render()
 }

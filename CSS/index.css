@@ -61,7 +61,20 @@ input{
  
 .book-card{
     width: 250px;
-    height: 100px;
+    height: 130px;
     text-align: center;
     border: 1px solid black;
 } 
+
+
+.remove-btn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
