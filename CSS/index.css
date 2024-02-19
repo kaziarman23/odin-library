@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+    height: 455px;
+    overflow: hidden;
+}
+
+#Add-New-Books{
+    display: block;
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-books-form{
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    height: 350px;
+    width: 250px;
+    background-color: gray;
+}
+
+label{
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+input{
+    border-radius: 5px;
+    height: 15px;
+    margin: 0 auto;
+    display: block
+}
+
+#remove-btn{
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    background-color: darkred;
+    width: 225px;
+    height: 30px;
+}
