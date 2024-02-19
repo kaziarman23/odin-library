@@ -18,13 +18,13 @@
     margin-top: 10px;
     padding: 10px;
     color: white;
-    background-color: blue;
+    background-color: black;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
 }
 
-.add-books-form{
+.Books-form{
     margin: 0 auto;
     display: block;
     border: 1px solid black;
@@ -46,12 +46,22 @@ input{
     display: block
 }
 
-#remove-btn{
+#add-Books{
+    width: 225px;
+    height: 30px;
+    color: black;
+    background-color: orange;
     padding: 5px;
     margin: 0 auto;
     display: block;
     border-radius: 10px;
-    background-color: darkred;
-    width: 225px;
-    height: 30px;
+    cursor: pointer;
 }
+
+ 
+.book-card{
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+} 
